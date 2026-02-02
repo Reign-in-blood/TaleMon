@@ -1,6 +1,7 @@
 {
   "Group": "ReignInBlood",
   "Name": "TaleMon",
+  "Main": "org.example.plugin.ExamplePlugin",
   "Version": "0.1.0",
   "Description": "",
   "Authors": [
