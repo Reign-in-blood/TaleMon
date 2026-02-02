@@ -1,0 +1,139 @@
+{
+  "Model": "NPC/Pokemon/Bulbasaur/Models/Bulbasaur.blockymodel",
+  "Texture": "NPC/Pokemon/Bulbasaur/Models/Bulbasaur.png",
+  "EyeHeight": 0.7,
+  "CrouchOffset": -0.3,
+  "HitBox": {
+    "Max": {
+      "X": 0.45,
+      "Y": 1.1,
+      "Z": 0.45
+    },
+    "Min": {
+      "X": -0.45,
+      "Y": 0,
+      "Z": -0.45
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Bulbasaur.png",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      0,
+      309,
+      0
+    ],
+    "Translation": [
+      -1,
+      -32
+    ]
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Idle.blockyanim",
+          "Speed": 0.6,
+          "SoundEventId": "SFX_Bulbasaur_idle"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Min": 0,
+        "Max": 0
+      }
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Walk.blockyanim",
+          "Speed": 1.4
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Run.blockyanim",
+          "Speed": 1.1
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Hurt.blockyanim",
+          "SoundEventId": "SFX_Bulbasaur_idle",
+          "Looping": false,
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Death.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Bulbasaur_idle",
+          "BlendingDuration": 0.200000002980232,
+          "Speed": 1
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Sleep.blockyanim"
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Fox/Animations/Default/Wake.blockyanim",
+          "SoundEventId": "SFX_Bulbasaur_idle",
+          "Looping": false
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Bulbasaur/Animations/Default/Bulbasaur_Alerted.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Bulbasaur_Alerted"
+        }
+      ]
+    }
+  },
+  "Particles": [
+    {
+      "SystemId": "Aura_Heal",
+      "Scale": 0.3,
+      "TargetEntityPart": "Entity",
+      "TargetNodeName": "Bulb",
+      "PositionOffset": {
+        "Y": -0.3
+      }
+    }
+  ]
+}
