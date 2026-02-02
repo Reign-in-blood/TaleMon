@@ -1,0 +1,20 @@
+{
+  "Group": "ReignInBlood",
+  "Name": "TaleMon",
+  "Version": "0.1.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "ReignInBlood",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

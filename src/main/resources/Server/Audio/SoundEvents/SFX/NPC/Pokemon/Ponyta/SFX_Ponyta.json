@@ -1,0 +1,23 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/NPC/Pokemon/Ponyta/ponyta_cry.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1.8240371213405997,
+        "MinVolume": -0.9151498112135024,
+        "MaxPitch": 1.6500422849992202,
+        "MaxVolume": 0
+      },
+      "Probability": 50,
+      "Volume": -7.979400086720375,
+      "StartDelay": 5
+    }
+  ],
+  "MaxInstance": 1,
+  "Volume": -5,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "Audio_NPC_Pokemon",
+  "Parent": "SFX_Attn_Moderate"
+}

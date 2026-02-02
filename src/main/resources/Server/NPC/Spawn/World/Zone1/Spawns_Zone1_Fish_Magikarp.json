@@ -1,0 +1,18 @@
+{
+  "Environments": [
+    "Env_Zone1_Plains",
+    "Env_Zone1_Forests",
+    "Env_Zone1_Mountains",
+    "Env_Zone1_Autumn",
+    "Env_Zone1_Swamps",
+    "Env_Zone1_Azure",
+    "Env_Zone1_Shores"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "Id": "Magikarp",
+      "Flock": "Group_Large"
+    }
+  ]
+}

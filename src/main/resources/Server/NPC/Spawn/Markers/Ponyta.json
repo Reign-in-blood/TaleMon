@@ -1,0 +1,13 @@
+{
+  "Model": "NPC_Spawn_Marker",
+  "NPCs": [
+    {
+      "Name": "Ponyta",
+      "Weight": 10,
+      "SpawnAfterGameTime": "P1D"
+    }
+  ],
+  "ExclusionRadius": 20,
+  "RealtimeRespawn": false,
+  "MaxDropHeight": 4
+}

@@ -1,0 +1,441 @@
+{
+  "Model": "NPC/Pokemon/Ponyta/Models/Ponyta.blockymodel",
+  "Texture": "NPC/Pokemon/Ponyta/Models/Ponyta.png",
+  "EyeHeight": 1,
+  "CrouchOffset": -0.5,
+  "HitBox": {
+    "Max": {
+      "X": 0.45,
+      "Y": 1.3,
+      "Z": 0.45
+    },
+    "Min": {
+      "X": -0.45,
+      "Y": 0,
+      "Z": -0.45
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 30,
+        "Min": -15
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 15,
+        "Min": -15
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Idle.blockyanim",
+          "SoundEventId": "SFX_Ponyta",
+          "Speed": 1
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Walk.blockyanim",
+          "SoundEventId": "SFX_Ponyta",
+          "Speed": 1
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk_Backward.blockyanim"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_run.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Ponyta"
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch_Walk.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch_Walk_Backward.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Alerted.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Ponyta"
+        }
+      ]
+    },
+    "Curious": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Curious.blockyanim"
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Damage/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Ponyta"
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Death.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Ponyta"
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Laydown.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Sleep.blockyanim",
+          "SoundEventId": "SFX_Ponyta"
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Wake.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Ponyta"
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Spawn.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false
+        }
+      ]
+    },
+    "Eat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Ponyta/Animations/Ponyta_Eat.blockyanim"
+        }
+      ]
+    },
+    "LookAround": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Look_Around.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Neigh": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Neigh.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Fly/Fly_Idle.blockyanim"
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Fly/Fly.blockyanim"
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Fly/Fly_Fast.blockyanim"
+        }
+      ]
+    },
+    "FlyBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Fly/Fly_Backward.blockyanim"
+        }
+      ]
+    },
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Idle.blockyanim"
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim.blockyanim"
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Backward.blockyanim"
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Fast.blockyanim"
+        }
+      ]
+    },
+    "SwimJump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Sink.blockyanim"
+        }
+      ]
+    },
+    "SwimFloat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Float.blockyanim"
+        }
+      ]
+    },
+    "FluidIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk_Backward.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Run.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim.blockyanim"
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Backward.blockyanim"
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Fast.blockyanim"
+        }
+      ]
+    },
+    "GreetAnimation": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Ponyta.png",
+  "IconProperties": {
+    "Scale": 0.29,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      -4,
+      -52
+    ]
+  },
+  "Particles": [
+    {
+      "SystemId": "Ponyta_Fire",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.2,
+        "Z": 0
+      },
+      "Scale": 0.4,
+      "TargetNodeName": "head",
+      "TargetEntityPart": "Entity",
+      "DetachedFromModel": false
+    },
+    {
+      "SystemId": "Ponyta_Fire",
+      "TargetEntityPart": "Entity",
+      "TargetNodeName": "tail",
+      "Scale": 0.5,
+      "PositionOffset": {
+        "Y": 0,
+        "Z": -0.3
+      },
+      "RotationOffset": {
+        "Roll": 0,
+        "Pitch": 120,
+        "Yaw": 0
+      }
+    },
+    {
+      "SystemId": "Ponyta_Fire",
+      "TargetEntityPart": "Entity",
+      "TargetNodeName": "leg_back_left_fire",
+      "Scale": 0.2
+    },
+    {
+      "SystemId": "Ponyta_Fire",
+      "TargetEntityPart": "Entity",
+      "TargetNodeName": "leg_back_right_fire",
+      "Scale": 0.2
+    },
+    {
+      "SystemId": "Ponyta_Fire",
+      "TargetEntityPart": "Entity",
+      "TargetNodeName": "leg_front_left_fire",
+      "Scale": 0.2,
+      "PositionOffset": {
+        "X": 0
+      }
+    },
+    {
+      "SystemId": "Ponyta_Fire",
+      "TargetEntityPart": "Entity",
+      "TargetNodeName": "leg_front_right_fire",
+      "Scale": 0.2
+    }
+  ],
+  "Light": {
+    "Radius": 0
+  }
+}
