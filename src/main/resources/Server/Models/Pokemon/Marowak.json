@@ -1,0 +1,407 @@
+{
+  "Model": "NPC/Pokemon/Marowak/Models/marowak.blockymodel",
+  "Texture": "NPC/Pokemon/Marowak/Models/marowak_256.png",
+  "EyeHeight": 1.5,
+  "CrouchOffset": -0.4,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.8,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Walk.blockyanim",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Walk.blockyanim",
+          "Speed": 2,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "RunBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.9,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "Sprint": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Walk.blockyanim",
+          "Speed": 1.3,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimJump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "SwimFloat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.3
+        }
+      ]
+    },
+    "FluidWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "ClimbIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "ClimbUp": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "ClimbDown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "ClimbLeft": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "ClimbRight": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak.Hit.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak.Death.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Marowak",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "Despawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "IdlePassive": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Weight": 4
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 15,
+        "Min": 5
+      }
+    },
+    "Search": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "SoundEventId": "SFX_Marowak"
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim"
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Looping": false
+        }
+      ]
+    }
+  }
+}

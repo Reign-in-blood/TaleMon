@@ -1,0 +1,259 @@
+{
+  "Model": "NPC/Pokemon/Gastly/Models/Gastly.blockymodel",
+  "Texture": "NPC/Pokemon/Gastly/Models/gastly_texture.png",
+  "EyeHeight": 1.6,
+  "HitBox": {
+    "Max": {
+      "X": 0.6,
+      "Y": 2,
+      "Z": 0.6
+    },
+    "Min": {
+      "X": -0.6,
+      "Y": 1,
+      "Z": -0.6
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_Idle.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Gastly"
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_Walk.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Gastly"
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Walk_Backward.blockyanim"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Run.blockyanim",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Crouch.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Crouch_Walk.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Crouch_Walk_Backward.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Jump_Far.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        },
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Jump_Far2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Alerted.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        },
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_Death.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Laydown.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Sleep.blockyanim"
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Void/Crawler_Void/Animations/Default/Wake.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_spawn.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false
+        }
+      ]
+    },
+    "Despawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Gastly/Animations/Gastly_Despawn.blockyanim",
+          "Looping": false
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Gastly.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      4,
+      323,
+      0
+    ],
+    "Translation": [
+      11,
+      -99
+    ]
+  },
+  "Light": {
+    "Radius": 0
+  },
+  "Particles": [
+    {
+      "SystemId": "Gastly_Smoke",
+      "Color": "#7b00d4",
+      "PositionOffset": {
+        "Y": 0.5,
+        "X": 0,
+        "Z": 0
+      },
+      "RotationOffset": {
+        "Yaw": 0,
+        "Pitch": 270,
+        "Roll": 0
+      }
+    },
+    {
+      "SystemId": "Gastly_Smoke",
+      "Color": "#7b00d4",
+      "PositionOffset": {
+        "Y": 0.7
+      },
+      "Scale": 1
+    },
+    {
+      "SystemId": "Gastly_Smoke",
+      "Color": "#7b00d4",
+      "PositionOffset": {
+        "Y": 0.7
+      },
+      "RotationOffset": {
+        "Pitch": -180
+      }
+    },
+    {
+      "SystemId": "Gastly_Smoke",
+      "RotationOffset": {
+        "Roll": -90
+      },
+      "Color": "#7b00d4",
+      "PositionOffset": {
+        "Y": 0.5
+      }
+    },
+    {
+      "SystemId": "Gastly_Smoke",
+      "Color": "#7b00d4",
+      "PositionOffset": {
+        "Y": 0.5
+      },
+      "RotationOffset": {
+        "Roll": 90
+      }
+    }
+  ]
+}
