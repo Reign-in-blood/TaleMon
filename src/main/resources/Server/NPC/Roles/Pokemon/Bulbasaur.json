@@ -40,7 +40,7 @@
     "CombatMovingRelativeSpeed": 0.6,
     "AlwaysSleepAtNight": true,
     "NightFlavorAnimation": "Howl",
-    "DayTimeNapWeight": 6,
+    "DayTimeNapWeight": 0,
     "DayTimeNapTimeRange": [
       10,
       12

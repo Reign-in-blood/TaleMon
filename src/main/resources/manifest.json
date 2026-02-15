@@ -1,20 +1,27 @@
 {
-  "Group": "ReignInBlood",
-  "Name": "TaleMon",
-  "Version": "0.1.0",
-  "Description": "",
-  "Authors": [
-    {
-      "Name": "ReignInBlood",
-      "Email": "",
-      "Url": ""
-    }
-  ],
-  "Website": "",
-  "Dependencies": {},
-  "OptionalDependencies": {},
-  "LoadBefore": {},
-  "DisabledByDefault": false,
-  "IncludesAssetPack": true,
-  "SubPlugins": []
+    "Group": "ReignInBlood",
+    "Name": "TaleMon",
+    "Version": "0.1.2",
+    "Description": "",
+    "Authors": [
+        {
+            "Name": "ReignInBlood"
+        }
+    ],
+    "Main": "com.reigninblood.TaleMon.TaleMon",
+    "Website": "",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "LoadBefore": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "SubPlugins": [
+        
+    ]
 }
