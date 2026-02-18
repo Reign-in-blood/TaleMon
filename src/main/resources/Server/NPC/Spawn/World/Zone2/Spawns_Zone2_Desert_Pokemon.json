@@ -1,0 +1,16 @@
+{
+  "Environments": [
+    "Env_Zone2_Deserts"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Sand",
+      "Id": "Beedrill"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

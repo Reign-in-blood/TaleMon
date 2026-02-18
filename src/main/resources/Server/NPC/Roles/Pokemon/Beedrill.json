@@ -1,0 +1,20 @@
+{
+  "Type": "Variant",
+  "Reference": "Beedrill_Template",
+  "Modify": {
+    "DropList": "Drop_Scarak_Seeker",
+    "MaxHealth": 61,
+    "IsMemory": true,
+    "MemoriesCategory": "Pokemon",
+    "MemoriesNameOverride": "Beedrill",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Beedrill.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

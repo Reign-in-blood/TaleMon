@@ -1,0 +1,16 @@
+{
+  "Environments": [
+    "Env_Zone2_Scrub"
+  ],
+  "NPCs": [
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Sand",
+      "Id": "Marowak"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

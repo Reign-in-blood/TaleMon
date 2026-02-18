@@ -1,0 +1,47 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Marowak_Default",
+    "ItemAnimationId": "Swing"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.167,
+  "Next": {
+    "Type": "Selector",
+    "Effects": {
+      "WorldSoundEventId": "SFX_NPC_Unarmed_Swing"
+    },
+    "$Comment": "Length of Combat",
+    "RunTime": 0.167,
+    "Selector": {
+      "Id": "Horizontal",
+      "Direction": "ToLeft",
+      "TestLineOfSight": true,
+      "ExtendTop": 0.5,
+      "ExtendBottom": 0.5,
+      "StartDistance": 0.5,
+      "EndDistance": 3,
+      "Length": 30,
+      "RollOffset": 90,
+      "YawStartOffset": -15
+    },
+    "HitEntity": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "DefaultValue": {
+            "Interactions": [
+              "Marowak_Swing_Damage"
+            ]
+          },
+          "Var": "Swing_Damage"
+        }
+      ]
+    },
+    "Next": {
+      "Type": "Simple",
+      "$Comment": "Pad the interaction length",
+      "RunTime": 0.167
+    }
+  }
+}
