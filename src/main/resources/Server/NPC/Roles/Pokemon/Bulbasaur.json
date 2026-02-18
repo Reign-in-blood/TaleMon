@@ -30,7 +30,7 @@
       4,
       5
     ],
-    "Attack": "Root_NPC_Bulbasaur_Attack",
+    "Attack": "Bulbasaur_Attack",
     "AttackDistance": 2.5,
     "CombatBehaviorDistance": 6,
     "CombatDirectWeight": 0,
@@ -88,7 +88,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "Bulbasaur",
+      "Value": "server.npcRoles.Bulbasaur.name",
       "Description": "Translation key for NPC name display"
     }
   }

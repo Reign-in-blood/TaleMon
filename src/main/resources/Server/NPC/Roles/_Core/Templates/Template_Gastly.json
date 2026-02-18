@@ -455,8 +455,8 @@
       "MaxRotationSpeed": 360,
       "Acceleration": 10,
       "HoverFreq": 0.1,
-      "MinHover": 0.8,
-      "MaxHover": 1.2,
+      "MinHover": 1,
+      "MaxHover": 2,
       "MinHoverDrop": 0,
       "FloatsDown": true
     }

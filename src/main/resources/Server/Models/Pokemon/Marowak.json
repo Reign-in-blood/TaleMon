@@ -344,7 +344,7 @@
     "Spawn": {
       "Animations": [
         {
-          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak.Spawn.blockyanim",
           "BlendingDuration": 0,
           "Looping": false,
           "SoundEventId": "SFX_Marowak"
@@ -354,7 +354,7 @@
     "Despawn": {
       "Animations": [
         {
-          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak.DeSpawn.blockyanim",
           "Looping": false,
           "SoundEventId": "SFX_Marowak"
         }
@@ -400,6 +400,13 @@
         {
           "Animation": "NPC/Pokemon/Marowak/Animations/Marowak_Idle.blockyanim",
           "Looping": false
+        }
+      ]
+    },
+    "Guard": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pokemon/Marowak/Animations/Marowak.Block.blockyanim"
         }
       ]
     }

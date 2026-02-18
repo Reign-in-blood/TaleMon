@@ -11,8 +11,8 @@
         "MaxVolume": 0
       },
       "Probability": 50,
-      "Volume": -7.979400086720375,
-      "StartDelay": 5
+      "Volume": -6.28,
+      "StartDelay": 3
     }
   ],
   "MaxInstance": 1,

@@ -7,9 +7,6 @@
     "FlockArray": [
       "Ponyta"
     ],
-    "LovedItems": [
-      "Ingredient_Fire_Essence"
-    ],
     "DropList": "Drop_Ponyta",
     "MaxHealth": 124,
     "MaxSpeed": 10,
@@ -19,19 +16,10 @@
     "_CombatConfig": {
       "EntityEffect": "Immunity_Fire"
     },
-    "ChanceToTurnFriendly": 30,
-    "ChanceToTurnFriendlyWithAttractiveItem": 70,
-    "WeightGreet": 15,
-    "WeightFollowItem": 30,
-    "WeightFollow": 10,
-    "WeightIgnore": 50,
     "ProduceItem": "Ingredient_Fire_Essence",
     "IsMemory": true,
     "MemoriesCategory": "Pokemon",
     "IsMountable": true,
-    "MountAnchorX": 0,
-    "MountAnchorY": 0.8,
-    "MountAnchorZ": 0.3,
     "_InteractionVars": {
       "Melee_Start": {
         "Interactions": [
@@ -120,7 +108,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "Ponyta",
+      "Value": "server.npcRoles.Ponyta.name",
       "Description": "Translation key for NPC name display"
     }
   }
