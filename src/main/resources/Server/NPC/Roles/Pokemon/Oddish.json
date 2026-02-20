@@ -1,0 +1,24 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Oddish",
+  "Modify": {
+    "Appearance": "Oddish",
+    "FlockArray": [
+      "Oddish"
+    ],
+    "DropList": "Drop_Oddish",
+    "MaxHealth": 70,
+    "WanderRadius": 12,
+    "IsMemory": true,
+    "MemoriesCategory": "Pokemon",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Oddish.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

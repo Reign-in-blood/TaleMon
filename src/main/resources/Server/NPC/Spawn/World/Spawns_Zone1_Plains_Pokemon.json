@@ -1,0 +1,16 @@
+{
+  "Environments": [
+    "Env_Zone1_Plains"
+  ],
+  "NPCs": [
+    {
+      "Weight": 10,
+      "SpawnBlockSet": "Soil",
+      "Id": "Oddish"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}
